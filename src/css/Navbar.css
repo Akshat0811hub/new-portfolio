@@ -1,0 +1,30 @@
+.nav {
+    width: 96.9%;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.nav ul p {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
