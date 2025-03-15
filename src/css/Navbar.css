@@ -3,11 +3,12 @@
     background-color: black;
     height: 70px;
     display: flex;
-    /* align-items: center; */
     justify-content: flex-end;
     padding: 0 20px;
-    position: relative;
-    z-index: 1;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+    z-index: 1000;
 }
 
 .nav ul {

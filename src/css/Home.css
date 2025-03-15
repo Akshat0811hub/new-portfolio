@@ -1,15 +1,18 @@
+/* *{
+    background-color: magenta;
+} */
+
 
 .main {
-    width: 100px;  
-    height: 100px;
+    width: 140px;  
+    height: 140px;
     border-radius: 50%; 
     overflow: hidden; 
     display: flex; 
     align-items: center;
     justify-content: center;
-    margin-left: 465px;
-    margin-top: 70px;
-    
+    margin-left: 575px;
+    margin-top: 100px;  
 }
 
 .main .main-img {
@@ -18,13 +21,25 @@
     object-fit: cover;     
 }
 
-.main-body .main-info p{
-    margin-top: 2px;
-}
-
 .main-body span{
     font-weight: 500;
-    font-size: 30px;
+    font-size: 70px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.main-body p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.show-more-btn{
+    padding: 20px;
+    border-radius: 45%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
 
 
