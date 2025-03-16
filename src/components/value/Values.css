@@ -1,48 +1,53 @@
 .values {
-    width: 100%;
+    /* width: ; */
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     flex-direction: row;
-
-    margin: 1rem;
+    /* margin-left: 40px; */
+    background-color: yellow;
 }
 
-/* .values-title {
-    flex: 1;
-    max-width: 180px;
-    /* margin-right: 2rem; 
-} */
+
 
 .values-title h1 {
     font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 52px;
     line-height: 24px;
     letter-spacing: -0.04em;
-    color: black
+    color: black;
+    margin-left: 300px;
 }
 
-.values-title div {
-    width: 38px;
+/* .values-title  {
+    width: 400px;
     height: 3px;
     background: var(--gradient-bar);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 0.25rem;
-}
 
-/* .values-text {
-    flex: 2;
-    max-width: 390px;
-    display: flex;
 } */
 
-.values-text p {
+.values-text {
+    margin-top: 10rem;
+    text-align: center;
+    margin-right: 500px;
+    background: var(--gradient-bar);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0.25rem;
+    margin-left: 200px;
+}
+
+.values-title p {
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: var(--color-text);
+    align-items: center;
+    width: 600px;
+    margin-left: 300px;
 }
 
 @media screen and (max-width: 550px) {
