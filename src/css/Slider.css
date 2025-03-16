@@ -47,15 +47,11 @@
 }
 
 .slider .slide-track-1 {
-    animation: scroll-l 30s linear infinite;
+    animation: scroll-l 45s linear infinite;
     display: flex;
     width: 3500px;
 }
-.slider .slide-track-2 {
-    animation: scroll-r 30s linear infinite;
-    display: flex;
-    width: 3500px;
-}
+
 
 .slider .slide {
     height: 75pt;
