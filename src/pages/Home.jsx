@@ -4,7 +4,7 @@ import "../css/Home.css";
 
 function Home() {
   return (
-    <>
+    <div className="main-main">
       <div className="main">
         <div className="main-img">
           <img src={owner} alt="" />
@@ -21,7 +21,7 @@ function Home() {
         in crafting exceptional user experiences.</p>
       </div>
       <button className="show-more-btn">Show More</button>
-    </>
+    </div>
   );
 }
 

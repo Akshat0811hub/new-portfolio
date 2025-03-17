@@ -1,5 +1,10 @@
-.work-heading{
+.three-components{
     justify-content: center;
     display: flex;
-    gap: 20px;
+    gap: 5px;
+    /* background-color: ; */
 }
+
+
+
+

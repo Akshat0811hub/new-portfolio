@@ -1,5 +1,5 @@
 .slider {
-    background: black;
+    background: #0F0e47;
     height: 75pt;
     margin: 0 auto;
     overflow: hidden;
@@ -7,7 +7,7 @@
     cursor: default;
     user-select: none;
     touch-action: none;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
 .slider:before {
