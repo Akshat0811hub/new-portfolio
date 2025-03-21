@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/Slider.css'
-import amazon from '../assets/amazon-shopping-alt-svgrepo-com (1).svg'
 
 function Slider() {
     return (

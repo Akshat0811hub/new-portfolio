@@ -1,10 +1,11 @@
 .work-main {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
     margin: 1rem;
+    background-color: white;
 }
 
 /* .work-title {
