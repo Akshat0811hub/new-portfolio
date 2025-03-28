@@ -23,33 +23,33 @@ const Companies = () => {
         <div className="components-group">
           <Blog
             imgUrl={Klarna}
-            title="Sep 26, 2021"
-            text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="Senior product Designer"
+            text="Online check-out and in-store"
           />
           <Blog
             imgUrl={Qapital}
-            title="Sep 26, 2021"
-            text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="Director of Product Design"
+            text="Investment and saving App"
           />
           <Blog
             imgUrl={Readly}
-            title="Sep 26, 2021"
-            text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="Experience Design Lead"
+            text="Online checkout and In-store"
           />
           <Blog
             imgUrl={Spotify}
-            date="Sep 26, 2021"
-            text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            date="Senior Product Designer"
+            text="Editorial playlist web application"
           />
           <Blog
             imgUrl={Trustly}
-            date="Sep 26, 2021"
-            text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            date="UX Strategist and Advisor"
+            text="Open banking for payments"
           />
           <Blog
             imgUrl={Zettle}
-            title="Sep 26, 2021"
-            text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            title="Area Design Lead"
+            text="Financial Services"
           />
           </div>
       </div>

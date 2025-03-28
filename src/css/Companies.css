@@ -1,17 +1,11 @@
-.gpt3__blog {
-    display: flex;
-    flex-direction: column;    
-}
-
-.company-component {
-    width: 100%;
+/* .company-component {
+    width: 20px;
     text-align: left;
     margin-bottom: 5rem;
-    background-color: yellow;
 }
 
 .company-component h1 {
-    font-size: 62px;
+    font-size: 52px;
     line-height: 75px;
     font-family: var(--font-family);
     font-weight: 800;
@@ -20,14 +14,17 @@
 .components-img {
     display: flex;
     flex-direction: row;
+    gap: 200px;
+    width: 50%;
 }
 
 .components-img .components-group {
-    flex: 1;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    background-color: yellow;
+    background-color: black;
+    gap: 20px;
+    width: 200px;
 }
 
 @media screen and (max-width: 990px) {
@@ -57,4 +54,44 @@
         line-height: 42px;
     }
 
+} */
+
+
+.company-component {
+    width: 100px; /* Full width */
+    text-align: left;
+    margin-bottom: 5rem;
+    
 }
+
+.company-component h1 {
+    font-size: 52px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    color: white;
+}
+
+.company-component-heading{
+    background-color: black;
+
+}
+
+.components-img {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    width: 100%; 
+    justify-content: center; /* Center items horizontally */
+}
+
+.components-img .components-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 20px;
+    background-color: black;
+    width: 100%; /* Full width */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box;
+}
+

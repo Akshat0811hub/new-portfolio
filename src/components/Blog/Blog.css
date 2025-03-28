@@ -1,32 +1,42 @@
 .company-component {
-    width: 100%;
+    width: 99.2%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    background: var(--color-footer);
+    border-radius: 15px;
+    background-color: rgb(29, 29, 31);
+    
+}
+
+.main-compo{
+    padding: 8px 5px;
 }
 
 .company-component-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0.8rem ;
+    height: 10px;
+    width: 230px;
+    gap: 4px;
 
-    padding: 1rem 1.5rem;
-    height: 100%;
 }
 
 .company-component-info p {
     font-family: var(--font-family);
-    font-size: 11.65px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 300;
     line-height: 35px;
     color: #fff;
+    margin-top: -15px;
 }
 
 .component-image {
-    width: 100%;
-    height: 100%;
-    background: var(--color-bg);
+    width: 70px;
+    height: 70px;
+    background-color: rgb(29, 29, 31);
+    margin-left: 30px;
 }
 
 .component-image img {
@@ -38,12 +48,12 @@
 .company-component-info h3 {
     font-family: var(--font-family);
     font-size: 25.11px;
-    font-weight: 800;
+    font-weight: 300;
     line-height: 30.30px;
-    
     color: #fff;
     margin-bottom: 5rem;
     cursor: pointer;
+    margin-top: -2px;
 }
 
 .company-component-info p:last-child {
