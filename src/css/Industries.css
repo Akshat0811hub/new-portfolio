@@ -1,0 +1,45 @@
+.indus-component {
+    width: 100%; /* Full width */
+    /* margin-bottom: 5rem; */
+    
+}
+
+.indus-component h1 {
+    font-size: 52px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    margin-left: 16px;
+    
+}
+
+
+
+.indus-component-heading h1{
+    color: #6E6E73;
+    text-align: left;
+}
+
+.indus-component-heading h1 span{
+    color: black;
+}
+
+.indus-components-img {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    width: 100%; 
+    justify-content: center; 
+    background-color: white;
+}
+
+.indus-components-img .indus-components-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box;
+    /* background-color: white; */
+}
+

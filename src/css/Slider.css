@@ -49,7 +49,7 @@
 .slider .slide-track-1 {
     animation: scroll-l 45s linear infinite;
     display: flex;
-    width: 3500px;
+    width: 150vw;
 }
 
 
