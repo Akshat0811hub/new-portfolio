@@ -1,0 +1,35 @@
+.mainDiv {
+    background-color: black;
+    height: 30rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.5rem;
+
+}
+
+.childDiv {
+    background-color: #161617;
+    color: white;
+    width: 64rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.childDiv h1{
+    font-size: 4rem;
+}
+
+.childDiv button{
+    background-color: white;
+    border-radius: 30px;
+    width: 9rem;
+    /* height: 8rem; */
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+
+
