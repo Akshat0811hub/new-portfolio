@@ -1,17 +1,8 @@
 .chipContainer{
-    /* border: solid 1px #6e6e73;
-    border-radius: 16px;
-    width: fit-content;
-    padding: 8px 16px;
-    text-transform: capitalize;
-    background-color: black;
-    color: #6e6e73; */
-        background-color: #222;
-        color: #ddd;
+        color: #6e6e6e;
         padding: 10px 15px;
         border-radius: 10px;
         text-align: center;
         font-weight: bold;
-        border: 1px solid #555;
-    
+        border: 1px solid #555; 
 }

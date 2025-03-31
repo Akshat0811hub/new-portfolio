@@ -5,8 +5,8 @@
     /* padding: 0;  */
     margin: 0 auto; 
     width: 100%; /* Adjust width if necessary */
-    background-color: black;
-    height: 700px;
+    /* background-color: black; */
+    
     
 }
 
@@ -26,10 +26,8 @@
     font-weight: 600;
     color: white;
     margin-left: 16px;
-}
-
-.companyComponentHeading h1 span{
-    color: #6e6e73;
+    /* margin-top: -570px; */
+    top: 20rem;
 }
 
 .companyPhoto{
@@ -38,10 +36,22 @@
 
 .companyPhoto p{
     text-align: center;
+    color: #6e6e73;
+}
+
+.companyPhoto h1{
+    color: black;
+    font-size: 40px;
+}
+
+.companyPhoto h2{
+    color: #6e6e73;
 }
 
 .companyPhoto img{
-    width: 132px;
+    width: 32rem;
+    height: 24rem;
+    margin-left: 8rem;
 }
 
 /* *************************** */
@@ -58,7 +68,7 @@
 
 .chip {
     background-color: white;
-    color: white;
+    color: #6e6e73;
     padding: 10px 15px;
     border-radius: 20px;
     text-align: center;
@@ -72,6 +82,23 @@
 }
 
 /* *************************** */
+/* Show More Button */
+/* Show More Button */
+.showMore {
+    width: fit-content;
+    align-self: center;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    margin-left: 24px;
+    position: relative; /* Needed for tooltip positioning */
+}
+
 .showMore:hover {
     background-color: #333; /* Darker on hover */
 }
@@ -80,23 +107,44 @@
 #my-tooltip0 {
     background-color: rgba(0, 0, 0, 0.9);
     color: #fff;
-    font-size: 14px;
-    padding: 8px 12px;
+    font-size: 12px; /* Smaller font size */
+    padding: 8px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 110%; /* Places tooltip to the right */
+    transform: translateY(-50%);
+    white-space: nowrap; /* Keeps content in one line */
     animation: fadeIn 0.3s ease-out;
-    
+    z-index: 999; /* Keeps it above other elements */
 }
 
 /* Tooltip Arrow */
-[data-tooltip-id]:after {
+#my-tooltip0:after {
     content: "";
     position: absolute;
     width: 8px;
     height: 8px;
     background: rgba(0, 0, 0, 0.9);
     transform: rotate(45deg);
-    top: 100%;
-    left: 50%;
-    margin-left: -4px;
+    top: 50%;
+    left: -4px; /* Arrow on the left side */
+    margin-top: -4px;
+}
+
+/* Tooltip Content - Image */
+#my-tooltip0 img {
+    width: 50px; /* Small size for the image */
+    height: auto;
+    border-radius: 4px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+/* Optional: Tooltip Text */
+#my-tooltip0 span {
+    font-size: 12px;
+    color: white;
+    vertical-align: middle;
 }
