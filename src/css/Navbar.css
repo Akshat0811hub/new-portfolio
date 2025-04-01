@@ -1,9 +1,11 @@
+/* Default styles */
 .nav {
-    width: 96.9%;
+    width: 100%;
     background-color: black;
     height: 70px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 0 20px;
     position: fixed;
     top: 0;
@@ -28,4 +30,58 @@
     color: white;
     text-decoration: none;
     margin-left: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) { /* Tablets */
+    .nav {
+        height: 60px;
+        padding: 0 15px;
+    }
+    .nav ul {
+        margin-right: 20px;
+    }
+    .nav ul p {
+        font-size: 20px;
+    }
+    .nav a {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile Devices */
+    .nav {
+        height: 55px;
+        padding: 0 10px;
+        justify-content: center;
+    }
+    .nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    .nav ul.show {
+        display: flex;
+    }
+    .nav ul p {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .nav a {
+        margin: 10px 0;
+    }
+    .nav-toggle {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        color: white;
+        font-size: 24px;
+    }
 }

@@ -14,10 +14,14 @@ import Trustly  from './pages/Trustly.jsx';
 import Readly from './pages/Readly.jsx';
 import Klarna from './pages/Klarna.jsx';
 import Viaplay from './pages/Viaplay.jsx';
+import Doktor from './pages/Doktor.jsx';
+import Spotify from './pages/Spotify.jsx';
+import Resume from './pages/Resume.jsx';
 
 function App() {
   return (
     <div className="App">
+      
       <Navbar/>
       <Home/>
       <Slider/>
@@ -33,6 +37,9 @@ function App() {
       <Readly/>
       <Klarna/>
       <Viaplay/>
+      <Doktor/>
+      <Spotify/>
+      <Resume/>
     </div>
   );
 }

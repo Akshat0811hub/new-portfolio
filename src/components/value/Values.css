@@ -42,19 +42,3 @@
     width: 600px;
     margin-left: 300px;
 }
-
-@media screen and (max-width: 550px) {
-    .values-title h1 {
-        font-size: 14px;
-        line-height: 22px;
-    }
-
-    .values-text p {
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    .values {
-        margin: 1rem 0;
-    }
-}

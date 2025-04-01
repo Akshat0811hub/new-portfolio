@@ -31,6 +31,7 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    
 }
 
 .main-body p{
@@ -46,6 +47,51 @@
     color: white;
     margin-top: 40px;
 }
+
+.main-body{
+    align-self: center;
+}
+
+@media (max-width: 1024px) { /* Tablets */
+    .main-body span {
+        font-size: 50px;
+        color: green;
+    }
+    .main-body p {
+        font-size: 18px;
+    }
+    .main {
+        width: 120px;
+        height: 120px;
+    }
+}
+@media (max-width: 480px) { /* For 6.5-inch screen devices */
+    .main {
+        width: 240px; /* Larger circle size */
+        height: 240px;
+        margin-left: 110px; /* Increased margin for better positioning */
+        margin-top: 100px; /* Increased top margin */
+    }
+    .main-body span {
+        font-size: 20px; /* Larger font size for the span */
+        color: yellow;
+    }
+    .main-body p {
+        font-size: 50px;
+        font-weight: 700; /* Larger paragraph text */
+    }
+    .show-more-btn {
+        padding: 15px; /* Increased padding for the button */
+        font-size: 18px; /* Larger button text */
+    }
+    .main-main {
+        width: 200%; /* Full width for the content */
+        margin-top: 75px;
+        height: 450px;
+    }
+}
+
+
 
 
 
